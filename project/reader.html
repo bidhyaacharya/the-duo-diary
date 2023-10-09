@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Blogger Page</title>
+</head>
+<body>
+  <h1>Blogger Page</h1>
+
+  <!-- Create a form to add new blog posts -->
+  <form id="blog-post-form">
+    <input type="text" id="title" placeholder="Enter title">
+    <textarea id="content" placeholder="Enter content"></textarea>
+    <button type="button" id="add-button">Create Post</button>
+  </form>
+
+  <!-- Display existing blog posts -->
+  <ul id="blog-post-list"></ul>
+
+  <!-- Update and delete buttons -->
+  <div id="update-delete">
+    <input type="text" id="new-title" placeholder="New title">
+    <textarea id="new-content" placeholder="New content"></textarea>
+    <button type="button" id="update-button">Update</button>
+    <button type="button" id="delete-button">Delete</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
